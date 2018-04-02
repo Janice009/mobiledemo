@@ -1,0 +1,111 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/*通用样式*/
+.pd0{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.tr{
+    text-align: right;
+}
+.mg3p{
+    margin-top: 3% !important;
+}
+.lh30{
+    height:30px;
+    line-height: 30px;
+}
+.lh40{
+    line-height: 40px;
+}
+.triangle{
+    width: 0;
+    height:0;
+    border-top:20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid red;
+}
+
+/*页面样式*/
+.page-jumbotron{
+    padding-top: 10px;
+}
+
+.navbar-brand{
+    color:#fff !important;
+    display: inline-block;
+    width:80%;
+}
+.page-title{
+    display: inline-block;
+    margin-left: 36%;
+}
+.body-card{
+    background: #fff;
+    border-radius:6px;
+    width: 100%;
+    margin: 0% auto;
+}
+.card-content-top{
+    margin-top: 8px;
+}
+.card-content-top:after{
+    content: "";
+    border-bottom: 1px solid #ebebeb;
+    position: absolute;
+    left: 28px;
+    width: 100%;
+    height: 1px;
+    top:90%
+}
+.card-time{
+    font-size: 70px;
+    display: inline-block;
+    color: darkorange;
+}
+.card-goin{
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.card-hurry{
+    background: #ef514e;
+    color: #fff;
+    padding: 2px;
+    border-radius:4px
+}
+
+.card-pra{
+    font-size: 14px !important;
+    color:#999 !important;
+}
+
+.card-name:before{
+    content: '';
+    border-left: 6px solid #4c79f6;
+    margin-left: -4%;
+    margin-right: 6%;
+    font-size: 15px;
+}
+.cont-line{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.cont-line:after{
+      content: "";
+      border-bottom: 1px solid #ebebeb;
+      position: absolute;
+      left: 14px;
+      width: 100%;
+      height: 1px;
+      top: 100%;
+  }
